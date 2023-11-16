@@ -38,4 +38,4 @@ app.include_router(vote.router)#include the vote router
 #get method for the api endpoint
 @app.get("/")#decorator for the api endpoint. path operation decorator
 def root():
-    return {"message": "Welcome to my API"}
+    return {"message": "Welcome to my API!!!"}
